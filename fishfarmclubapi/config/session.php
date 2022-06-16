@@ -85,8 +85,8 @@ return [
     |
     */
 
-    'table' => 'sessions',
-    // 'table' => 'personal_access_tokens',
+    // 'table' => 'sessions',
+     'table' => 'personal_access_tokens',
 
     /*
     |--------------------------------------------------------------------------
@@ -157,7 +157,7 @@ return [
     */
 
     // 'domain' => env('SESSION_DOMAIN'),
-    'domain' => '.domain.com',
+    'domain' => '.domain.com/api',
 
     /*
     |--------------------------------------------------------------------------
